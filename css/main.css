@@ -9,13 +9,14 @@ body {
 }
 
 main {
-    /* position: relative; */
+    position: relative;
     min-height: 100%;
     background: url('/img/bg-music2.webp') no-repeat;
     background-attachment: fixed;                           /*  do not scroll  */
     background-size: cover;
     background-position: center;
     z-index: 2;
+    opacity: 0;
 }
 
 .webgl {
@@ -26,5 +27,5 @@ main {
     height: 100%;
     outline: none;
     z-index: 1;
-    background: black;
+    /* background: black; */
 }
