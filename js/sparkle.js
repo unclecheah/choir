@@ -1,9 +1,25 @@
 function sparkle () {
-    var body = $('#starshine'),
-        template = $('.template.shine'),
+    // $('<div>', {
+    //     id: 'sparkle-starshine'
+    // }).appendTo ('main');
+    //
+    // $('<div>', {
+    //     class: 'sparkle-template sparkle-shine'
+    // }).appendTo ('#sparkle-starshine');
+
+
+    var div = `
+        <div id='sparkle-starshine'>
+            <div class='sparkle-template sparkle-shine'></div>
+        </div>
+    `;
+    $('main').append (div);
+
+
+    var body = $('#sparkle-starshine'),
+        template = $('.sparkle-template.sparkle-shine'),
         stars =  200,
         sparkle = 20;
-
 
     var size = 'small';
     var createStar = function() {

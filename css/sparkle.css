@@ -1,4 +1,4 @@
-#starshine {
+#sparkle-starshine {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.shine {
+.sparkle-shine {
     display: block;
     position: absolute;
     top: 50%;
@@ -29,17 +29,17 @@
     -o-animation: glitter 8s linear 0s infinite normal;
 }
 
-.shine.small {
+.sparkle-shine.small {
     width: 20px;
     height: 20px;
 }
 
-.shine.medium {
+.sparkle-shine.medium {
     width: 30px;
     height: 30px;
 }
 
-.shine.large {
+.sparkle-shine.large {
     width: 50px;
     height: 50px;
 }
