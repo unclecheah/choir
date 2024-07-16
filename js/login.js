@@ -26,8 +26,10 @@
 function login () {
     var div = `
         <div id='login'>
-            <img src='img/uc-marble.png' height='72 alt='logo'>
+            <img src='img/uc-marble.png' height='72' width='72' alt='logo'>
             <h1>Login</h1>
+            <input type="text" />
+            <div class="placeholder">User Name</div>
         </div>
     `;
     $('main').append(div);

@@ -15,8 +15,8 @@
             window.onload = async function () {
                 sparkle ();
                 login ();
-                $('main').animate({ opacity: 1 }, 2000); // Fading in HTML content
-                $('.webgl').animate({ opacity: 0}, 2000);
+                $('main').animate({ opacity: 1 }, 1000); // Fading in HTML content
+                $('.webgl').animate({ opacity: 0}, 1000);
             };
         </script>
     </head>

@@ -1,12 +1,38 @@
 #login {
     position: absolute;
-    width: 680px;
+    width: 480px;
     height: 400px;
-    background: transparent;
+    /* background: transparent; */
+    background: rgba(0, 0, 0, .5);
     color: white;
     border: 2px solid red;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
     /* padding: 10px; */
 
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 50;
+}
+
+
+
+input {
+    width: 100%;
+    outline: none;
+    font-size: 1.2em;
+    padding: 0 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    color: white;
+    transition: 0.1s ease;
+    z-index: 51;
+}
+
+.placeholder {
+    font-size: 1em;
+    color: #aaaaaa;
 }
