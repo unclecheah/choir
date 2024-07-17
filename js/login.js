@@ -28,8 +28,14 @@ function login () {
         <div id='login'>
             <img src='img/uc-marble.png' height='72' width='72' alt='logo'>
             <h1>Login</h1>
-            <input type="text" />
-            <div class="placeholder">User Name</div>
+            <div class='field'>
+                <input type="text" required />
+                <div class="placeholder">Username</div>
+            </div>
+            <div class='field'>
+                <input type="password" required />
+                <div class="placeholder">Password</div>
+            </div>
         </div>
     `;
     $('main').append(div);
